@@ -194,6 +194,10 @@ body {
     text-decoration: underline;
 }
 
+.portfolio {
+    width: 1600px;
+}
+
 /* Button */
 .button {
     color: var(--title-text-color);
@@ -218,6 +222,10 @@ body {
     cursor: pointer;
     width: 200px;
     height: 50px;
+}
+
+.portfolio-button {
+    padding-right: 8px;
 }
 
 .footer-decoration {
@@ -330,7 +338,7 @@ body {
 }
 
 .portfolio-container {
-    width: 1200px;
+    width: 1600px;
     padding-left: 15px;
     padding-right: 15px;
     margin-right: auto;
@@ -340,12 +348,13 @@ body {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    background-color: crimson;
+    padding-right: 215px;
+    padding-left: 215px;
+    padding-bottom: 94px;
 }
 
 .portfolio-item {
     width: 370px;
-    background-color: blueviolet;
     margin-right: 30px;
     margin-bottom: 30px;
 }
@@ -358,6 +367,10 @@ body {
 }
 .portfolio-buttons {
     list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
 
 .container {
@@ -370,6 +383,7 @@ body {
 
 .page-header {
     display: inline-block;
+    border-bottom: 1px;
 }
 
 .properties-container {
