@@ -25,6 +25,8 @@ body {
     color: var(--primary-text-color);
     font-family: 'Roboto', 'Nunito', sans-serif;
     width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container {
@@ -72,6 +74,7 @@ body {
     margin-left: 93px;
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-left: 0px;
 }
 
 .contacts-nav {
@@ -133,7 +136,9 @@ body {
     background-color: var(--footer-backgrownd);
     text-align: center;
     height: 600px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-hover {
@@ -143,8 +148,10 @@ body {
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 /*Prorerties*/
@@ -156,6 +163,8 @@ body {
     margin-bottom: 0px;
     padding-left: 0px;
     padding-top: 94px;
+    justify-content: space-between;
+    width: 1170px;
 }
 
 .properties-item {
@@ -178,6 +187,9 @@ body {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+}
+.properties-details {
+    width: 270px;
 }
 
 /*What we do*/
@@ -279,6 +291,10 @@ body {
     line-height: 1.62;
     cursor: pointer;
     border-radius: 4px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 .button:hover,
 .button:focus {
@@ -329,6 +345,16 @@ body {
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
+.text {
+    display: flex;
+    flex-direction: column;
+}
+.text .footer-contacts-nav:last-child {
+    padding-bottom: 0px;
+}
+.text .footer-contacts-nav:first-child {
+    padding-top: 20px;
+}
 .footer-decoration > .contacts-nav {
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
@@ -345,16 +371,41 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 
 .footer-contacts-nav {
     padding-left: 0px;
     list-style-type: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 9px;
+}
+
+.footer-list .footer-contacts-nav:last-child {
+    padding-bottom: 0px;
+}
+
+.footer-list:first-child {
+    color: var(--footer-text-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
 .footer-contacts-nav a:hover {
     color: var(--accent-color);
 }
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+
 .portfolio-container {
     padding-left: 15px;
     padding-right: 15px;
@@ -386,19 +437,27 @@ body {
     list-style-type: none;
     display: flex;
     justify-content: center;
+    width: 1170px;
     padding-top: 94px;
     padding-bottom: 50px;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 0px;
 }
-
+.portfolio-button {
+    padding-left: 8px;
+    padding-right: 0px;
+}
+.portfolio-buttons .portfolio-button:first-child {
+    padding-left: 0px;
+}
 .portfolio-card-title {
     color: var(--title-text-color);
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin: 0px;
 }
 
 .portfolio-card-subtitle {
@@ -406,6 +465,7 @@ body {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
+    margin: 0px;
 }
 
 .portfolio a {
@@ -430,6 +490,7 @@ body {
     padding-right: 24px;
     padding-top: 20px;
     padding-bottom: 20px;
+    height: 110px;
 }
 
 .card-image {
