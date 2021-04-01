@@ -39,12 +39,7 @@ body {
     border-bottom: 1px solid #ececec;
 }
 
-.header {
-    width: 1170px;
-    margin-left: 215px;
-    margin-right: 215px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+.page-header .container {
 }
 .main-nav {
     display: flex;
