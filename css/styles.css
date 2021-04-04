@@ -328,6 +328,7 @@ body {
 
 .footer-decoration {
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer-decoration > .logo {
     color: var(--footer-text-color);
@@ -341,13 +342,12 @@ body {
     color: var(--footer-text-color);
     font-style: normal;
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.55;
     letter-spacing: 0.03em;
 }
 .text {
     display: flex;
     flex-direction: column;
-    padding-bottom: 60px;
 }
 .text .footer-contacts-nav:last-child {
     padding-bottom: 0px;
